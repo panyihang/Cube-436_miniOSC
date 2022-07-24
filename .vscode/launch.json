@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/build/raspberry-pi-pico/APPLICATION.elf",
+            "projectEnvName": "raspberry-pi-pico",
+            "toolchainBinDir": "/home/anye/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/anye/.platformio/platforms/wizio-pico/misc/svd/rp2040.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/build/raspberry-pi-pico/APPLICATION.elf",
+            "projectEnvName": "raspberry-pi-pico",
+            "toolchainBinDir": "/home/anye/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/anye/.platformio/platforms/wizio-pico/misc/svd/rp2040.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/build/raspberry-pi-pico/APPLICATION.elf",
+            "projectEnvName": "raspberry-pi-pico",
+            "toolchainBinDir": "/home/anye/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/anye/.platformio/platforms/wizio-pico/misc/svd/rp2040.svd",
+            "loadMode": "manual"
+        }
+    ]
+}

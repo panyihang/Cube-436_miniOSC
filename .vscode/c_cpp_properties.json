@@ -1,0 +1,87 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/anye/Documents/PlatformIO/Projects/cube-436/include",
+                "/home/anye/Documents/PlatformIO/Projects/cube-436/src",
+                "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/libdeps/raspberry-pi-pico/lvgl",
+                "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/libdeps/raspberry-pi-pico/lvgl/src",
+                "/home/anye/Documents/PlatformIO/Projects/cube-436/lib",
+                "/home/anye/.platformio/packages/framework-wizio-pico/wizio/pico",
+                "/home/anye/.platformio/packages/framework-wizio-pico/wizio/newlib",
+                "/home/anye/.platformio/packages/framework-wizio-pico/SDK/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/SDK/cmsis/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/SDK/boards",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/VFS",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/fatfs",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/freertos/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/freertos/src",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/cmsis-dap",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/hal_tft",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/lfs",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/lwip/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/lwip/src",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/posix/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/posix/src",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/wiring/include",
+                "/home/anye/.platformio/packages/framework-wizio-pico/library/wiring/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/anye/Documents/PlatformIO/Projects/cube-436/include",
+                    "/home/anye/Documents/PlatformIO/Projects/cube-436/src",
+                    "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/libdeps/raspberry-pi-pico/lvgl",
+                    "/home/anye/Documents/PlatformIO/Projects/cube-436/.pio/libdeps/raspberry-pi-pico/lvgl/src",
+                    "/home/anye/Documents/PlatformIO/Projects/cube-436/lib",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/wizio/pico",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/wizio/newlib",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/SDK/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/SDK/cmsis/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/SDK/boards",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/VFS",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/fatfs",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/freertos/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/freertos/src",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/cmsis-dap",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/hal_tft",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/lfs",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/lwip/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/lwip/src",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/posix/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/posix/src",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/wiring/include",
+                    "/home/anye/.platformio/packages/framework-wizio-pico/library/wiring/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60103",
+                "NDEBUG",
+                "PICO_ON_DEVICE=1",
+                "PICO_HEAP_SIZE=2048",
+                "PICO_STACK_SIZE=2048",
+                "BAREMETAL",
+                ""
+            ],
+            "compilerPath": "/home/anye/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-march=armv6-m",
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                "-march=armv6-m",
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
