@@ -10,9 +10,9 @@
 
 # <span class="colour" style="color: rgb(224, 62, 45);">MCU、ADC、屏幕都是超频运行，板子有点烫手属于正常情况</span>
 
-![3](//image.lceda.cn/pullimage/WB8XVdREomYZhtNl8M5JkbJpknsZ2PxkMuA4PWYB.jpeg)
+![3](https://image.lceda.cn/pullimage/WB8XVdREomYZhtNl8M5JkbJpknsZ2PxkMuA4PWYB.jpeg)
 
-![4](//image.lceda.cn/pullimage/h0vvsvYXFGvT1iCB2Wp3XbAAi31ILU1KrqI5NAv9.jpeg)
+![4](https://image.lceda.cn/pullimage/h0vvsvYXFGvT1iCB2Wp3XbAAi31ILU1KrqI5NAv9.jpeg)
 <span class="colour" style="color: rgb(53, 152, 219);">2Mhz 正弦波</span>
 
 代码开源仓库：[https://github.com/panyihang/Cube-436_miniOSC](https://github.com/panyihang/Cube-436_miniOSC)
@@ -86,6 +86,6 @@ adc采集：
 * 自动控制ADC的基准电压和采样范围
 * 无需担心错过细小的波形
 
-![1](//image.lceda.cn/pullimage/DhV5DszQxuONb4S6HaB6WCvhJcI0Ubelp8AJFCiY.jpeg)
+![1](https://image.lceda.cn/pullimage/DhV5DszQxuONb4S6HaB6WCvhJcI0Ubelp8AJFCiY.jpeg)
 
-![2](//image.lceda.cn/pullimage/Sinc5q41PdtK2LAq1QpCrhfhOf42gW2CfiAX4Hry.jpeg)
+![2](https://image.lceda.cn/pullimage/Sinc5q41PdtK2LAq1QpCrhfhOf42gW2CfiAX4Hry.jpeg)
